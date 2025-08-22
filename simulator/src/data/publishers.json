@@ -1,18 +1,18 @@
 [
     {
-        "type": "temperatura",
+        "type": "umidade",
         "topic": "sensor/4492890a-e17b-4f06-8cb6-7ab035e5d7fd",
         "id": "4492890a-e17b-4f06-8cb6-7ab035e5d7fd",
-        "min_value": 20,
+        "min_value": 10,
         "max_value": 80,
         "interval": 2
     },
     {
-        "type": "temperatura",
+        "type": "umidade",
         "topic": "sensor/e1ac1c68-dfff-4e7c-bbf0-4e6cfd3edef3",
         "id": "e1ac1c68-dfff-4e7c-bbf0-4e6cfd3edef3",
-        "min_value": 50,
-        "max_value": 70,
+        "min_value": 15,
+        "max_value": 95,
         "interval": 2
     }
 ]
