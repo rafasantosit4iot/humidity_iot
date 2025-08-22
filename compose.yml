@@ -1,6 +1,9 @@
 services: 
   web:
     build: ./simulator
+    environment:
+      - MQTT_BROKER_URL=host.docker.internal
+      - MQTT_BROKER_PORT=1883
     ports:
       - "5000:5000"
     volumes:
